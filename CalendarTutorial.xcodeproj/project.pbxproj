@@ -15,6 +15,10 @@
 		FAAD4622288EA60B00989CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAD4620288EA60B00989CC1 /* LaunchScreen.storyboard */; };
 		FAAD462A288EA87B00989CC1 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD4629288EA87B00989CC1 /* CalendarCell.swift */; };
 		FAAD462C288EABA400989CC1 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD462B288EABA400989CC1 /* CalendarHelper.swift */; };
+		FAAD462E288EE59800989CC1 /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD462D288EE59800989CC1 /* WeeklyViewController.swift */; };
+		FAAD4630289050FC00989CC1 /* EventEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD462F289050FC00989CC1 /* EventEditViewController.swift */; };
+		FAAD46322890510B00989CC1 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD46312890510B00989CC1 /* EventCell.swift */; };
+		FAAD46342891582B00989CC1 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD46332891582B00989CC1 /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		FAAD4623288EA60B00989CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAD4629288EA87B00989CC1 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		FAAD462B288EABA400989CC1 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		FAAD462D288EE59800989CC1 /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
+		FAAD462F289050FC00989CC1 /* EventEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditViewController.swift; sourceTree = "<group>"; };
+		FAAD46312890510B00989CC1 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		FAAD46332891582B00989CC1 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,10 @@
 				FAAD4617288EA60900989CC1 /* SceneDelegate.swift */,
 				FAAD4619288EA60900989CC1 /* ViewController.swift */,
 				FAAD461B288EA60900989CC1 /* Main.storyboard */,
+				FAAD46332891582B00989CC1 /* Event.swift */,
+				FAAD462F289050FC00989CC1 /* EventEditViewController.swift */,
+				FAAD46312890510B00989CC1 /* EventCell.swift */,
+				FAAD462D288EE59800989CC1 /* WeeklyViewController.swift */,
 				FAAD462B288EABA400989CC1 /* CalendarHelper.swift */,
 				FAAD4629288EA87B00989CC1 /* CalendarCell.swift */,
 				FAAD461E288EA60B00989CC1 /* Assets.xcassets */,
@@ -145,8 +157,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAAD462C288EABA400989CC1 /* CalendarHelper.swift in Sources */,
+				FAAD46342891582B00989CC1 /* Event.swift in Sources */,
+				FAAD4630289050FC00989CC1 /* EventEditViewController.swift in Sources */,
 				FAAD461A288EA60900989CC1 /* ViewController.swift in Sources */,
 				FAAD4616288EA60900989CC1 /* AppDelegate.swift in Sources */,
+				FAAD46322890510B00989CC1 /* EventCell.swift in Sources */,
+				FAAD462E288EE59800989CC1 /* WeeklyViewController.swift in Sources */,
 				FAAD4618288EA60900989CC1 /* SceneDelegate.swift in Sources */,
 				FAAD462A288EA87B00989CC1 /* CalendarCell.swift in Sources */,
 			);

@@ -46,7 +46,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         var count: Int = 1
         
         while(count <= 42) {
-            if (count <= startingSpaces || count - startingSpaces > days) {
+            if (count <= startingSpaces || count - startingSpaces > daysInMonth) {
                 totalSquares.append("")
             } else {
                 totalSquares.append(String(count - startingSpaces))

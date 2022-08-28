@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA768EA728927B670000A483 /* DailyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768EA628927B670000A483 /* DailyCell.swift */; };
+		FA768EA928927B7F0000A483 /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768EA828927B7F0000A483 /* DailyViewController.swift */; };
 		FAAD4616288EA60900989CC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD4615288EA60900989CC1 /* AppDelegate.swift */; };
 		FAAD4618288EA60900989CC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD4617288EA60900989CC1 /* SceneDelegate.swift */; };
 		FAAD461A288EA60900989CC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD4619288EA60900989CC1 /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA768EA628927B670000A483 /* DailyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCell.swift; sourceTree = "<group>"; };
+		FA768EA828927B7F0000A483 /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
 		FAAD4612288EA60900989CC1 /* CalendarTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAD4615288EA60900989CC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAAD4617288EA60900989CC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				FAAD4617288EA60900989CC1 /* SceneDelegate.swift */,
 				FAAD4619288EA60900989CC1 /* ViewController.swift */,
 				FAAD461B288EA60900989CC1 /* Main.storyboard */,
+				FA768EA628927B670000A483 /* DailyCell.swift */,
+				FA768EA828927B7F0000A483 /* DailyViewController.swift */,
 				FAAD46332891582B00989CC1 /* Event.swift */,
 				FAAD462F289050FC00989CC1 /* EventEditViewController.swift */,
 				FAAD46312890510B00989CC1 /* EventCell.swift */,
@@ -157,6 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAAD462C288EABA400989CC1 /* CalendarHelper.swift in Sources */,
+				FA768EA728927B670000A483 /* DailyCell.swift in Sources */,
+				FA768EA928927B7F0000A483 /* DailyViewController.swift in Sources */,
 				FAAD46342891582B00989CC1 /* Event.swift in Sources */,
 				FAAD4630289050FC00989CC1 /* EventEditViewController.swift in Sources */,
 				FAAD461A288EA60900989CC1 /* ViewController.swift in Sources */,

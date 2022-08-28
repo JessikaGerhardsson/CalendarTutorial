@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import UIKit
+//import UIKit
 
 var eventList = [Event]()
 
@@ -21,6 +21,20 @@ class Event {
         for event in eventList {
             if (event.date == date) {
                 daysEvent.append(event)
+            }
+        }
+        return daysEvent
+    }
+    
+    func eventsForDateAndTime(date: Date, hour: Int) -> [Event] {
+        var daysEvent = [Event]()
+        for event in eventList {
+            if (event.date == date) {
+                let eventHour = CalendarHelper().hourFromDate(date: event.date)
+                if eventHour == hour {
+                    daysEvent.append(event)
+                }
+                
             }
         }
         return daysEvent

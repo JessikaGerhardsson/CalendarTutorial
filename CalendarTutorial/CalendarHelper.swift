@@ -27,6 +27,13 @@ class CalendarHelper {
         return dateFormatter.string(from: date)
     }
     
+    //Veckodagen för daily calendar
+    func monthDayString(date: Date) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "LLLL dd"
+        return dateFormatter.string(from: date)
+    }
+    
     //Input: 15 Jan 2021 -> Result: 2021
     func yearString(date: Date) -> String {
         let dateFormatter = DateFormatter()
@@ -54,6 +61,11 @@ class CalendarHelper {
         return components.day!
     }
     
+    func hourFromDate(date: Date) -> Int {
+        let components = calendar.dateComponents([.hour], from: date)
+        return components.hour!
+    }
+    
     //Returnar den första i månaden
     //Input: 15 Jan 2021 -> Result: 1 Jan 2021
     func firstOfMonth(date: Date) -> Date {
@@ -65,7 +77,29 @@ class CalendarHelper {
     //Input: 1 Jan 2021 -> Result: 5(Friday)
     func weekDay(date: Date) -> Int {
         let components = calendar.dateComponents([.weekday], from: date)
-        return components.weekday! - 1
+        return components.weekday! - 2
+    }
+    
+    //Returnar veckodagen till daily calendar
+    func weekDayAsString(date: Date) -> String {
+        switch weekDay(date: date) {
+        case 0:
+            return "Måndag"
+        case 1:
+            return "Tisdag"
+        case 2:
+            return "Onsdag"
+        case 3:
+            return "Torsdag"
+        case 4:
+            return "Fredag"
+        case 5:
+            return "Lördag"
+        case 6:
+            return "Söndag"
+        default:
+            return ""
+        }
     }
     
     func addDays(date: Date, days: Int) -> Date {
@@ -81,9 +115,13 @@ class CalendarHelper {
             if currentWeekDay == 1 {
                 return current
             }
-            current = addDays(date: current, days: -1)
+            current = addDays(date: current, days: -2)
         }
         return current
         
+        
+        
     }
+    
+    
 }

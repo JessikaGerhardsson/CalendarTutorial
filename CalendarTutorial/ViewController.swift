@@ -87,5 +87,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return false
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        setMonthView()
+    }
 }
 
